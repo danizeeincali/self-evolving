@@ -38,7 +38,7 @@ export function AgentGrid({ agents, profile, onSelectAgent, onRefresh, loading }
           <p className="text-sm text-gray-600 mt-1">
             {profile
               ? 'Personalized recommendations based on your preferences'
-              : 'Popular agents to get you started'}
+              : 'Agents you might like based on what we know about you'}
           </p>
         </div>
         <button
